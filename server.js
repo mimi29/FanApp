@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 
 // Connect to the Mongo DB
-var databaseURI = "mongodb://localhost/travelpreferences";
+var databaseURI = "mongodb://localhost/travelpreferences2";
 var MONGODB_URI = process.env.MONGODB_URI || databaseURI;
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
