@@ -1,0 +1,46 @@
+.row-div {
+	height: 500px;  
+	max-height: 500px;  
+  /* overflow-y: scroll;  */
+	width: 100%;
+	font-size:20px;
+	/* font-family:'Lato', sans-serif; */
+}
+
+.SearchForm {
+	font-family: Lato-bold;
+  color: white;
+  text-shadow:
+      -1px -.5px 0 #000,
+      1px -.5px 0 #000,
+      -1px .5px 0 #000,
+      1px .5px 0 #000;
+}
+
+.search-container {
+	margin-top: 10px;
+}
+
+.search-form{
+	color: white;
+	/* text-shadow: 1px 1px 1px black; */
+	  color: white;
+  text-shadow:
+      -1px -.5px 0 #000,
+      1px -.5px 0 #000,
+      -1px .5px 0 #000,
+      1px .5px 0 #000;
+}
+
+.col-form-label {
+	font-weight: bold;
+	font-size:22px;
+}
+
+.form-check-label {
+  font-weight: bold;
+}
+
+.col-form-label {
+  font-style: bold !important;
+}

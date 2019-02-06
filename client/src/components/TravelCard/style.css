@@ -1,0 +1,23 @@
+
+.card {
+	margin: 5px; 
+	margin-bottom: 10px;
+	font-size: 15px;
+	width: 330px;
+	height:410px;
+	font-family: 'Lato';
+	color: rgb(68, 68, 68);
+	text-shadow: none;
+} 
+
+.card-title {
+	font-weight: bold;
+}
+
+.dollar-font {
+	font-weight: bold;
+}
+
+
+
+  
