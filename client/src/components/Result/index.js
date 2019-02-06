@@ -75,7 +75,7 @@ class Result extends Component {
       }
     
     render() {
-        if (this.props.location.state != undefined) {
+        if (this.props.location.state !== undefined) {
             return (
                 <div className="fill result-image">
                     <div className="clearfix">
