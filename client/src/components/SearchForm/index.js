@@ -311,12 +311,12 @@ class SearchForm extends React.Component {
                             onChange={this.handleInputChange} required />
                     </div>
 
-                    <div className="form-group row">
+                    {/* <div>
                         <label htmlFor="nearby" className="col-form-label">Beach,&nbsp;Mountain,&nbsp;By the airport</label>
                         <input className="form-control" name="nearby" placeholder="General preferences"
                             value={this.state.nearby}
                             onChange={this.handleInputChange} required />
-                    </div>
+                    </div> */}
 
                     <div className="form-group row">
                         <label htmlFor="find" className="col-form-label my-0">Find:</label>
