@@ -1,14 +1,13 @@
 .row-div {
 	height: auto;  
-	max-height: 1100px;  
-  	overflow-y: scroll !important;   
+	max-height: 1100px;   
+  overflow-y: scroll;   
 	width: 100%;
-	/* overflow: scroll-y; */
-	overflow-x: hidden !important;
+	overflow: scroll;
 }
 
 html {
-  overflow:   scroll-y;
+  overflow:   scroll;
 }
 ::-webkit-scrollbar {
     width: 0px;
@@ -22,7 +21,7 @@ html {
 
 .main {
   background: 
-		url("../../images/coronado-bridge.jpg");
+		url("../../images/delmar.jpg");
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover; 	

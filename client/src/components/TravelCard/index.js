@@ -5,9 +5,9 @@ import API from "../../utils/API";
 
 class TravelCard extends React.Component {
 
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   state = {
     id: 0
@@ -40,7 +40,7 @@ class TravelCard extends React.Component {
 
   render() {
     const {
-      rec
+      rec, 
     } = this.props;
     return (
       <div className="card col-md-4">
@@ -73,7 +73,7 @@ class TravelCard extends React.Component {
               <div className="row">
                 <div className="col-md-8">
                   <Checkbox
-                    label="Save"
+                    label="Save to my account"
                     onCheckboxChange={this.myCheckboxChange}
                     key={rec.phone}
                     name={rec.phone}
